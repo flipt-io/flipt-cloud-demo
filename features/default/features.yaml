@@ -1,0 +1,13 @@
+version: "1.4"
+namespace:
+    key: default
+    name: Default
+flags:
+    - key: storeClosed
+      name: Store Closed
+      type: BOOLEAN_FLAG_TYPE
+      enabled: false
+      rollouts:
+        - threshold:
+            percentage: 100
+            value: true
