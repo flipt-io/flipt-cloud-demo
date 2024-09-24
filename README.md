@@ -9,8 +9,8 @@ This template uses Flipt Cloud as a feature flag management service to control w
 ### Set up Flipt Cloud
 
 1. Create a new Flipt Cloud account at https://flipt.cloud/
-2. Create a new environment called `apple-store-demo`
-3. Create a new flag called `store-closed`
+2. Create a new environment called `apple-store-demo` or something similar
+3. Create a new flag called `storeClosed`
 4. Set the flag to `true`
 
 You can then choose from one of the following two methods to use this repository:
@@ -26,7 +26,7 @@ cp .env.example .env.local
 ```
 
 1. Set the `FLIPT_CLOUD_API_KEY` environment variable to the API key for your Flipt Cloud environment.
-2. Set the `FLIPT_CLOUD_URL` environment variable to the URL for your Flipt Cloud environment.
+2. Set the `FLIPT_CLOUD_URL` environment variable to the URL for your Flipt Cloud environment. (e.g. `https://apple-store-demo-{your-username}.flipt.cloud`)
 
 Next, install the dependencies and run Next.js in development mode:
 
